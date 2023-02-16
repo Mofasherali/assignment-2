@@ -55,6 +55,7 @@ body {
     font-weight: 700;
     color: white;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .hero-img img {
