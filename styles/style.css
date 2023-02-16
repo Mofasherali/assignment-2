@@ -152,7 +152,17 @@ body {
     align-items: center;
     justify-content: space-evenly;
     margin: auto;
-    width: 80%;
+    width: 70%;
+    gap: 50px;
+}
+
+.fact-items {
+    border: 2px solid orange;
+    padding: 20px 20px;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .fact-header {
@@ -165,14 +175,6 @@ body {
 
 }
 
-.fact-items {
-    border: 2px solid orange;
-    padding: 30px 55px;
-    margin: auto;
-    width: 8%;
-    text-align: center;
-    border-radius: 5px;
-}
 
 .fact-items h1 {
     font-size: 30px;
