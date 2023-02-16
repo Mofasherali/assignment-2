@@ -218,3 +218,94 @@ body {
     border-radius: 8px;
     margin-bottom: 50px;
 }
+
+/* Media Start */
+
+@media screen and (max-width: 576px) {
+    .Banner-section {
+        display: block;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .header {
+        display: grid;
+        text-align: center;
+    }
+
+    .navber {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+        margin-left: 13px;
+
+    }
+
+    .button {
+        padding: 13px 28px;
+        border-radius: 8px;
+        border: none;
+        background-color: orange;
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 40px;
+        cursor: pointer;
+    }
+
+    .features-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+        width: 100%;
+    }
+
+    .feature-img img {
+        display: grid;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .feature-container {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .fact-header {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    .all-items {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+        width: 100%;
+
+    }
+
+    .sponsorship {
+        display: grid;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+    }
+
+}
+
+
+/* Media End */
