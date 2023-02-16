@@ -1,0 +1,208 @@
+/* Header Start */
+.Banner-section {
+    background-color: rgb(142, 231, 202);
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.navber a {
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+/* Header Start */
+
+
+/* Banner Start */
+
+.hero-section {
+    text-align: center;
+}
+
+.hero-container {
+    width: auto;
+    text-align: center;
+    inline-size: 700px;
+    margin: auto;
+    width: 60%;
+}
+
+.hero-container h1 {
+    font-size: 2em;
+}
+
+.button {
+    padding: 13px 28px;
+    border-radius: 8px;
+    border: none;
+    background-color: orange;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.hero-img img {
+    margin: auto;
+    width: 70%;
+    margin-bottom: 15px;
+
+}
+
+/* Banner End */
+
+/* Feature section Start */
+.features-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.feature-img img {
+    margin: auto;
+    width: 40%;
+    margin: 5px 5px;
+}
+
+.feature-container {
+    text-align: left;
+}
+
+.feature-container h1 {
+    font-size: 2em;
+}
+
+/* Feature section End */
+
+/* Feature List Up Start */
+.feature-listup {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+}
+
+.featuer-listup-containt {
+    margin: auto;
+    margin-left: 60px;
+    text-align: left;
+    width: 40%;
+}
+
+.list-up-headline {
+    font-size: 2em;
+}
+
+.featuer-listup-img img {
+    margin: auto;
+    margin-left: 150px;
+    width: 75%;
+}
+
+.services {
+    box-shadow: 0px 0px 10px 1px rgba(218, 217, 217, 0.5);
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+
+}
+
+/* 
+.services p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    
+} */
+
+.years {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: orange;
+    padding: 20px 30px;
+    width: 170px;
+    border-radius: 10px;
+    position: relative;
+    left: 700px;
+    bottom: 100px;
+    text-align: center;
+}
+
+/* Feature List Up End */
+
+/* Fact Start */
+.fact-section {
+    margin-bottom: 150px;
+}
+
+.all-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 80%;
+}
+
+.fact-header {
+    margin-left: 160px;
+    margin-bottom: 70px;
+}
+
+.fact-header h1 {
+    font-size: 2em;
+
+}
+
+.fact-items {
+    border: 2px solid orange;
+    padding: 30px 55px;
+    margin: auto;
+    width: 8%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.fact-items h1 {
+    font-size: 30px;
+}
+
+/* Fact End */
+
+
+.sponsor {
+    text-align: center;
+}
+
+.sponsor h1 {
+    font-size: 2.2em;
+}
+
+.sponsor-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 80%;
+    margin-top: 80px;
+    margin-bottom: 90px;
+
+}
+
+.logos img {
+    width: 60%;
+}
